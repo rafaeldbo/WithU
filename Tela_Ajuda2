@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>WithU/Ajuda/Crise</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header> 
+            <p> 
+                <a href="telaInicial.html"> 
+                    <img scr="seta.png" alt="Seta">  
+                </a>
+                <a href="telaPerfil.html"> 
+                    <img src="perfil.png" alt="Perfil"> 
+                </a>
+                    AJUDA > CRISE
+                <a href="Config.html"> 
+                    <img src="config.png" alt="Configuração"> 
+                </a>
+            </p>
+        </header>  
+        <main>
+            <p>
+                <a href="tela_Panico.html">
+                    <img scr="panico.png" alt="Pânico">
+                </a>
+                <br>
+                <a href="tela_Ansiedade.html">
+                    <img scr="ansiedade.png" alt="Ansiedade">
+                </a>
+                <br>
+                <a href="tela_Depressão.html">
+                    <img scr="depressao.png" alt="Depressão">
+                </a>
+            </p>
+            </main>
+            <footer>
+                <p>
+                    <a href="tela_Ajuda.html">
+                        <img scr="Ajuda.png" alt="Ajuda">
+                    </a>
+                    <a href="tela_Conversas.html">
+                        <img scr="Conversas.png" alt="Conversas">
+                    </a>
+                    <a href="tela_Mapa_Emoções.html">
+                        <img scr="Mapa_Emoções.png" alt="Mapa de Emoções">
+                    </a>
+                    <a href="tela_Desabafo.html">
+                        <img scr="Desabafo.png" alt="Desabafo">
+                    </a>
+                </p>
+            </footer>
+    </body>
+</html> 
