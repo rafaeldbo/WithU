@@ -4,7 +4,7 @@ Repositório do projeto de um aplicativo sobre saúde mental para a matéria de 
  * Alex Pacchioni Souza 
  * Ananda Julia Galvão Campelo
  * Carol Magario de Mattos Barretto
- * Marina Alice Camargo Gonzales Monticelli
+ * Marina Basya Patel Lebl
  * Rafael Dourado Bastos de Oliveira
 ### Professores
  * Luiz Durão
