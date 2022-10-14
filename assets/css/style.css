@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+/* Estilos gerais das tag's */
+h1 {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 20vw;
+}
+
+/* Classes de organização */
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
