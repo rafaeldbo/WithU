@@ -1,0 +1,43 @@
+/* Estilos gerais das tag's */
+h1 {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 20vw;
+}
+
+/* Classes de organização */
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Botôes em coluna */
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    width: 45%;
+    border: solid black 1px;
+    margin: 8px;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: ;
+    
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
