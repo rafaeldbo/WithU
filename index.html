@@ -6,62 +6,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/inicio.css">
         <title>WithÜ - Tela Inicial</title>
     </head>
     <body>
         <header class="linha">
             <h1>WithÜ</h1>
         </header>
-        <main class="coluna">
-            <div>
-                <a href = "./tela_perfil.html" >
-                    <img src="./assets/img/perfil.png"  alt="Usuario WithÜ">
-                </a>
-                <img src="./assets/img/mascote.png"    alt="Mascote do WithÜ">
-            </div>
-            <ul>
-                <li>
-                    <button type="button"> <img src="./assets/img/feliz.png"     alt="Emoção feliz"></button>
+        <main>
+            <ul class="coluna">
+                <li class="linha espacada">
+                    <img class="mascote" src="./assets/img/mascote.png"    alt="Mascote do WithÜ">
+                    <a href = "#" >
+                        <img class="perfil" src="./assets/img/perfil.png"  alt="Usuario WithÜ">
+                    </a>
                 </li>
-                <li>
-                    <button type="button"> <img src="./assets/img/pouco_feliz.png"    alt="Emoção um pouco feliz"></button>
+                <li class="linha espacada">
+                    <button type="button" class="botao_emocao_rapida"> <img src="./assets/img/feliz.png"     alt="Emoção feliz"></button>
+                    <button type="button" class="botao_emocao_rapida"> <img src="./assets/img/pouco_feliz.png"    alt="Emoção um pouco feliz"></button>
+                    <button type="button" class="botao_emocao_rapida"> <img src="./assets/img/medio.png"     alt="Emoção nem feliz nem triste"></button>
+                    <button type="button" class="botao_emocao_rapida"> <img src="./assets/img/pouco_triste.png" alt="Emoção um pouco triste"></button>
+                    <button type="button" class="botao_emocao_rapida"> <img src="./assets/img/triste.png"    alt="Emoção triste"></button>
                 </li>
-                <li>
-                    <button type="button"> <img src="./assets/img/medio.png"     alt="Emoção nem feliz nem triste"></button>
+                <li class="linha centralizada">
+                    <a class="coluna botao_grande" href="./tela_ajuda.html">
+                        <h2>Ajuda</h2>
+                        <img src="./assets/img/ajuda.png" alt="Botão de ajuda">
+                    </a>
+                    <a class="coluna botao_grande" href="./tela_conversa.html">
+                        <h2>Conversar</h2>
+                        <img src="./assets/img/conversas.png" alt="Botão de conversa">
+                    </a>
                 </li>
-                <li>
-                    <button type="button"> <img src="./assets/img/pouco_triste.png" alt="Emoção um pouco triste"></button>
-                </li>
-                <li>
-                    <button type="button"> <img src="./assets/img/triste.png"    alt="Emoção triste"></button>
+                <li class="linha centralizada">
+                    <a class="coluna botao_grande" href="#">
+                        <h2>Emoções</h2>
+                        <img src="./assets/img/emocoes.png" alt="Botão de emoções">
+                    </a>
+                    <a class="coluna botao_grande" href="./tela_desabafo.html">
+                        <h2>Desabafos</h2>
+                        <img src="./assets/img/desabafo.png" alt="Botão de desabafos">
+                    </a>
                 </li>
             </ul>
-            <table>
-                <tr>
-                    <th>
-                        <a href="./tela_ajuda.html">
-                            <img src="./assets/img/ajuda.png" alt="Botão de ajuda">
-                        </a>
-                    </th>
-                    <th>
-                        <a href="./tela_conversa.html">
-                            <img src="./assets/img/conversas.png" alt="Botão de conversa">
-                        </a>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <a href="./tela_emoções.html">
-                            <img src="./assets/img/emocoes.png" alt="Botão de emoções">
-                        </a>
-                    </th>
-                    <th>
-                        <a href="./tela_desabafo.html">
-                            <img src="./assets/img/desabafo.png" alt="Botão de desabafos">
-                        </a>
-                    </th>
-                </tr>
-            </table>
         </main>
     </body>
 </html>

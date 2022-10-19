@@ -1,19 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 
-/* Estilos gerais das tag's */
-h1 {
-    font-family: 'Wendy One', sans-serif;
-    font-size: 20vw;
-}
-
 /* Classes de organização */
 .coluna {
     display: flex;
     flex-direction: column;
 }
-
 .linha {
     display: flex;
     flex-direction: row;
 }
+
+.centralizada {
+    justify-content: center;
+    align-items: center;
+}
+.alinhada {
+    justify-content: space-between;
+    align-items: center;
+}
+.espacada {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilo padrão das Tag's */
+header {
+    width: 100%;
+}
+
+/* Classes de estilo */
+.botao_grande {
+    width: 40vw;
+    height: 40vw;
+    
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 2.5vw;
+    border: 0.5vw solid black;
+    border-radius: 5vw;
+    
+    font-size: 5vw;
+    text-align: center;
+}
+.botao_grande img {
+    width: 25vw;
+    height: 25vw;
+}
+
+
+
 

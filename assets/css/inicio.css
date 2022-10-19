@@ -1,0 +1,34 @@
+h1 {
+    width: 100%;
+
+    margin: 1vh 0;
+
+    text-align: center;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 20vw;
+}
+
+.perfil {
+    width: 45vw;
+    height: 45vw;
+}
+.mascote {
+    position: absolute;
+    z-index: -1;
+
+    right: 5vw;
+    
+    width: 35vw;
+    height: 35vw;
+}
+
+.botao_emocao_rapida {
+    width: 15vw;
+    height: 15vw;
+
+    border: 0;
+    background-color: transparent;
+}
+.botao_emocao_rapida img {
+    width: 100%;
+}
