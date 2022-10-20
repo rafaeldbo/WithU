@@ -27,6 +27,9 @@
 header {
     width: 100%;
 }
+main {
+    height: 100%;
+}
 
 /* Classes de estilo */
 .botao_grande {
@@ -48,6 +51,16 @@ header {
     height: 25vw;
 }
 
+.botao_emocao{
+    width: 15vw;
+    height: 15vw;
+
+    border: 0;
+    background-color: transparent;
+}
+.botao_emocao img {
+    width: 100%;
+}
 
 
 
