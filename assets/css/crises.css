@@ -17,22 +17,23 @@ h1 {
 
 /* Botôes em coluna */
 
-ul{
+main ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-li{
+main li{
     width: 45%;
     border: solid black 1px;
-    margin: 8px;
-    height: 8rem;
+    border-radius: 4vw;
+    margin: 2vw;
+    height: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: ;
+    
     
 }
 
