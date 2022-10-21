@@ -8,29 +8,30 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/header_footer.css">
+        <link rel="stylesheet" href="assets/css/desabafos.css">
     </head>
     <body>
         <header>
-            <ul>
+            <ul class="linha alinhada">
                 <li>
-                    <a href="./index.html"> 
+                    <a class="botao_header" href="./index.html"> 
                         <img src="./assets/img/seta.png"     alt="Voltar">  
                     </a>
                 </li>
                 <li>
-                    <a href="./tela_perfil.html"> 
+                    <a href="#"> 
                         <img src="./assets/img/perfil.png"   alt="Perfil"> 
                     </a>
                 </li>
             </ul>
             <h1>DESABAFOS</h1>
-            <a href="./tela_config.html"> 
+            <a class="botao_header" href="./tela_config.html"> 
                 <img src="./assets/img/config.png"   alt="Configurações"> 
             </a>
         </header>
         <main>
-            <table>
-                <tr>
+            <table class="coluna centralizada">
+                <tr class="linha espacada">
                     <th>Seg</th>
                     <th>Ter</th>
                     <th>Qua</th>
@@ -39,7 +40,7 @@
                     <th>Sab</th>
                     <th>Dom</th>
                 </tr>
-                <tr>
+                <tr class="linha espacada">
                     <th>11</th>
                     <th>12</th>
                     <th>13</th>
@@ -49,46 +50,46 @@
                     <th>17</th>
                 </tr>
             </table>
-            <ul>
-                <li>
-                    <img src="./assets/img/foto.png" alt="Foto">
-                </li>
-                <li>
+            <ul class="coluna">
+                <li class="linha centralizada">
+                    <a href="#">
+                        <img src="./assets/img/foto.png" alt="Desabafo por Foto">
+                    </a>
                     <a href="./tela_desabafo_texto.html">
-                        <img src="./assets/img/texto.png" alt="Texto">
+                        <img src="./assets/img/texto.png" alt="Desabafo por Texto">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/audio.png" alt="Desabafo por Audio">
                     </a>
                 </li>
-                <li>
-                    <img src="./assets/img/audio.png" alt="Audio">
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./assets/img/foto.png" alt="Foto">
-                    <h2>Título 1</h2>
-                    <img src="./assets/img/feliz.png" alt="Emoção feliz">
-                </li>
-                <li>
-                    <img src="./assets/img/texto.png" alt="Texto">
-                    <h2>Título 2</h2>
-                    <img src="./assets/img/triste.png" alt="Emoção triste">
-                </li>
-                <li>
-                    <img src="./assets/img/audio.png" alt="Audio">
-                    <h2>Título 3</h2>
-                    <img src="./assets/img/medio.png" alt="Emoção nem feliz nem triste">
+                <li class="coluna">
+                    <a class="linha alinhada" href="#">
+                        <img src="./assets/img/foto.png" alt="Foto">
+                        <h2>Título 1</h2>
+                        <img src="./assets/img/feliz.png" alt="Emoção feliz">
+                    </a>
+                    <a class="linha alinhada" href="#">
+                        <img src="./assets/img/texto.png" alt="Texto">
+                        <h2>Título 2</h2>
+                        <img src="./assets/img/triste.png" alt="Emoção triste">
+                    </a>
+                    <a class="linha alinhada" href="#">
+                        <img src="./assets/img/audio.png" alt="Audio">
+                        <h2>Título 3</h2>
+                        <img src="./assets/img/medio.png" alt="Emoção nem feliz nem triste">
+                    </a>
                 </li>
             </ul>
         </main>
         <footer>
-            <nav>
+            <nav class="linha espacada">
                 <a href="./tela_ajuda.html">
                     <img src="./assets/img/ajuda.png"    alt="Ajuda">
                 </a>
                 <a href="./tela_conversas.html">
                     <img src="./assets/img/conversas.png"    alt="Conversas">
                 </a>
-                <a href="./tela_mapa_emoções.html">
+                <a href="#">
                     <img src="./assets/img/emocoes.png"  alt="Mapa de Emoções">
                 </a>
                 <a href="./tela_desabafo.html">
@@ -96,6 +97,5 @@
                 </a>
             </nav>
         </footer> 
-        
     </body>
 </html> 

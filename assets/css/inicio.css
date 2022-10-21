@@ -21,14 +21,3 @@ h1 {
     width: 35vw;
     height: 35vw;
 }
-
-.botao_emocao_rapida {
-    width: 15vw;
-    height: 15vw;
-
-    border: 0;
-    background-color: transparent;
-}
-.botao_emocao_rapida img {
-    width: 100%;
-}

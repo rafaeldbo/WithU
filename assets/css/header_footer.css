@@ -1,31 +1,51 @@
 header {
     position: relative;
+    top: 0;
+
+    height: min-content;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 11rem;
-    border-bottom: .1rem solid black;
+    
+    padding: 1.5vw 0;
+    border-bottom: 0.1vw solid black;
 }
+header h1 {
+    font-size: 5vw;
+}
+
 header img{
-    width: 5rem;
-    height: 5rem;
+    width: 10vw;
+    height: 10vw;
 }
+
+.botao_header {
+    display: flex;
+    align-items: center;
+}
+.botao_header img {
+    width: 5vw;
+    height: 5vw;
+
+    padding: 0 1vw;
+}
+
 footer{
-    position:fixed;
+    position: fixed;
     bottom: 0;
+    
     width: 100%;
+    background-color: white;
 }
 footer nav {
-    justify-content: flex-end;
-    display: flex;
+    padding: 1.5vw 0;
     border-top: .1rem solid black;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-between;   
 }
 footer img {   
-    width: 9rem;
-    height: 9rem;
+    width: 20vw;
+    height: 20vw;
 }
+
 
  
