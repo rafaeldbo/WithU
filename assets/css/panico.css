@@ -12,6 +12,10 @@ main li{
     align-items: center;
     
 }
+li img {
+    width: 3rem;
+    margin-right: 0.5rem;
+}
 
 .balao_antes{
     position: relative;
@@ -26,7 +30,7 @@ main li{
     padding: 1vw;
 }
 
-.balao_depois {
+.balao_antes:before {
     content: "";
     width: 0vw;
     height: 0vw;
