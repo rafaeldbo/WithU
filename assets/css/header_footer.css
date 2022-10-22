@@ -1,8 +1,8 @@
 header {
-    position: relative;
+    position: fixed;
     top: 0;
 
-    height: min-content;
+    width: 100%;
 
     display: flex;
     justify-content: space-between;
@@ -10,9 +10,11 @@ header {
     
     padding: 1.5vw 0;
     border-bottom: 0.1vw solid black;
+
+    background-color: white;
 }
 header h1 {
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
 header img{
@@ -31,16 +33,28 @@ header img{
     padding: 0 1vw;
 }
 
+main {
+    position: fixed;
+    top: 14vw;
+
+    height: 100%;
+    width: 100%;
+
+    /* margin-top: 14vw;
+    margin-bottom: 24vw; */
+}
+
 footer{
     position: fixed;
     bottom: 0;
     
     width: 100%;
+
     background-color: white;
 }
 footer nav {
     padding: 1.5vw 0;
-    border-top: .1rem solid black;
+    border-top: 0.1rem solid black;
 }
 footer img {   
     width: 20vw;

@@ -1,15 +1,12 @@
 /* Estilos gerais das tag's */
-h1 {
-    font-family: 'Wendy One', sans-serif;
-    font-size: 20vw;
-}
-img {
+
+main img {
     margin-left: 1rem;
     margin-right: 1rem;
     width: 10vw;
 }
 
-h2 {
+main h2 {
     width: 100%;
     height: 2rem;
 
@@ -17,7 +14,10 @@ h2 {
 
     display: flex;
     align-items: center;
+}
 
+main a {
+    width: 100%;
 }
 
 /* Classes de organização */
@@ -34,7 +34,6 @@ h2 {
 /* Botôes em coluna */
 
 main ul{
-    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -42,20 +41,12 @@ main ul{
 }
 
 main li{
-    width: 45%;
+    width: 50%;
     border: solid black 1px;
     border-radius: 4vw;
-    margin: 2vw;
+    margin: 3vw;
     height: 15vw;
     display: flex;
     justify-content: start;
-    align-items: left;
-    
-    
-}
-
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    font-weight: bold;
+    align-items: left;   
 }

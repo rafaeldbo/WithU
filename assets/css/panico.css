@@ -1,8 +1,9 @@
+
 main ul{
     display: flex;
     flex-direction: column;
+    margin: 5vw 0;
 }    
-
 main li{
     width: 45%;
     margin: 5vw;
@@ -12,6 +13,7 @@ main li{
     align-items: center;
     
 }
+
 li img {
     width: 3rem;
     margin-right: 0.5rem;
@@ -28,6 +30,7 @@ li img {
     color: black;
     justify-content: space-around;
     padding: 1vw;
+    z-index: -1;
 }
 
 .balao_antes:before {
@@ -41,6 +44,7 @@ li img {
     border-left: 1.3vw solid transparent;
     left: -1vw;
     bottom: 5.6vw;
+    z-index: -1;
 }
 
 .balao_depois{

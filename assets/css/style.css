@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-h1{font-family: 'Wendy One', 'Fredoka One';}
-body{font-family: 'Signika Negative', 'Josefin Sans', sans-serif;}
 
+body {font-family: 'Signika Negative', 'Josefin Sans', sans-serif;}
+h1 {font-family: 'Wendy One', 'Fredoka One', sans-serif;}
+
+button {
+    border: 0;
+    background-color:  transparent;
+}
 
 /* Classes de organização */
 .coluna {
@@ -27,14 +32,6 @@ body{font-family: 'Signika Negative', 'Josefin Sans', sans-serif;}
 .espacada {
     justify-content: space-around;
     align-items: center;
-}
-
-/* Estilo padrão das Tag's */
-header {
-    width: 100%;
-}
-main {
-    height: 100%;
 }
 
 /* Classes de estilo */
@@ -60,13 +57,8 @@ main {
 .botao_emocao{
     width: 15vw;
     height: 15vw;
-
-    border: 0;
-    background-color: transparent;
 }
 .botao_emocao img {
     width: 100%;
 }
-
-
 
