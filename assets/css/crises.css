@@ -10,8 +10,6 @@ main h2 {
     width: 100%;
     height: 2rem;
 
-    padding: auto 0; 
-
     display: flex;
     align-items: center;
 }
@@ -20,19 +18,7 @@ main a {
     width: 100%;
 }
 
-/* Classes de organização */
-.coluna {
-    display: flex;
-    flex-direction: column;
-}
-
-.linha {
-    display: flex;
-    flex-direction: row;
-}
-
 /* Botôes em coluna */
-
 main ul{
     display: flex;
     flex-direction: column;
@@ -47,6 +33,6 @@ main li{
     margin: 3vw;
     height: 15vw;
     display: flex;
-    justify-content: start;
-    align-items: left;   
+    justify-content: flex-start;
+    align-items: center   
 }

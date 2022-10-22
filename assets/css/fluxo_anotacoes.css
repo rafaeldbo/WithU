@@ -10,14 +10,14 @@ th {
     text-align: center;
 }
 
-#tipos_desabafos {
+#tipos_anotacoes {
     width: min-content;
 
     margin: 3vh auto;
     border: 0.5vw solid black;
     border-radius: 3vw;
 }
-#tipos_desabafos a {
+#tipos_anotacoes a {
     border-right: 0.1vw solid black;
 }
 
@@ -31,14 +31,14 @@ th {
     text-align: center;
 }
 
-#desabafos {
+#anotacoes {
     border: 0.5vw solid black;
     border-radius: 3vw;
 }
-#desabafos a {
+#anotacoes a {
     border-bottom: 0.1vw solid black;
 }
-#desabafos h2 {
+#anotacoes h2 {
     width: 100%;
     height: 2rem;
 
@@ -51,13 +51,13 @@ th {
     align-items: center;
 }
 
-#tipos_desabafos img, #desabafos img {
+#tipos_anotacoes img, #anotacoes img {
     width: 10vw;
     height: 10vw;
 
     margin: 1.5vw 1.5vw;
 }
-#desabafos .ultimo, #tipos_desabafos .ultimo {
+#tipos_anotacoes .ultimo, #anotacoes .ultimo {
     border: 0;
 }
 

@@ -5,17 +5,16 @@ main ul{
     margin: 5vw 0;
 }    
 main li{
-    width: 45%;
-    margin: 5vw;
-    height: 1vw;
+    width: 80%;
+    margin: 2vw;
+    height: min-content;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
 }
 
 li img {
-    width: 3rem;
+    width: 15vw;
     margin-right: 0.5rem;
 }
 
@@ -23,7 +22,7 @@ li img {
     position: relative;
     font-size: 4vw;
     line-height: 3vw;
-    width: relative;
+    width: max-content;
     background: rgb(233,242,253);
     border-radius: 1vw;
     text-align: left;
@@ -52,7 +51,7 @@ li img {
     position: relative;
     font-size: 4vw;
     line-height: 3vw;
-    width: relative;
+    width: max-content;
     background: rgb(233,242,253);
     border-radius: 1vw;
     text-align: left;
