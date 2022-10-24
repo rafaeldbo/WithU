@@ -49,8 +49,8 @@ th {
     height: 2rem;
 
     padding: 0 1.5vw;
-    border-right: 0.1vw solid black;
-    border-left: 0.1vw solid black;
+    border-right: 0.5vw solid black;
+    border-left: 0.5vw solid black;
     margin: 1.5vw 0;
 
     display: flex;
@@ -90,7 +90,7 @@ th {
 
     width: min-content;    
 
-    border: 0.1vw solid black;
+    border: 0.5vw solid black;
     border-radius: 6vw;
     padding: 0;
 
@@ -118,7 +118,7 @@ th {
 }
 .classificar a {
     padding: 2.5vw 5vw;
-    border: 0.1vw solid black;
+    border: 0.5vw solid black;
     border-radius: 3vw;
     
     background-color: #FFE2B8;
