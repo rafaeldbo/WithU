@@ -5,57 +5,64 @@ main ul{
     margin: 5vw 0;
 }    
 main li{
-    width: 80%;
-    margin: 2vw;
-    height: min-content;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
+    width: 80%;
+    height: min-content;
+
+    margin: 2vw;
 }
 
-li img {
+main li img {
     width: 15vw;
-    margin-right: 0.5rem;
+    margin-right: 0.5vw;
 }
 
 .balao_antes{
     position: relative;
-    font-size: 4vw;
-    line-height: 3vw;
+
     width: max-content;
-    background: rgb(233,242,253);
-    border-radius: 1vw;
+
     text-align: left;
-    color: black;
-    justify-content: space-around;
+    font-size: 4.5vw;
+
+    border-radius: 1vw;
     padding: 1vw;
-    z-index: -1;
+
+    background: #FFE2B8;
+    box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
 }
 
 .balao_antes:before {
     content: "";
+
+    position: absolute;
+    left: -1vw;
+    bottom: 5vw;
+
     width: 0vw;
     height: 0vw;
-    position: absolute;
-    border-top: 1.6vw solid rgb(233,242,253);
+
+    border-top: 1.6vw solid #FFE2B8;
     border-bottom: 0.8vw solid transparent;
-    border-right: 0.8vw solid rgb(233,242,253);
+    border-right: 0.8vw solid #ffe2b8;
     border-left: 1.3vw solid transparent;
-    left: -1vw;
-    bottom: 5.6vw;
-    z-index: -1;
 }
 
 .balao_depois{
-    margin-left: 3.5rem;
     position: relative;
-    font-size: 4vw;
-    line-height: 3vw;
+    
     width: max-content;
-    background: rgb(233,242,253);
+    min-height: max-content;
+    
+    margin-left: 3.5rem;
     border-radius: 1vw;
-    text-align: left;
-    color: black;
-    justify-content: space-around;
     padding: 1vw;
+    
+    text-align: left;
+    
+    background: #FFE2B8;
+    box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
 }
