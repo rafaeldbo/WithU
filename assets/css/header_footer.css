@@ -1,3 +1,6 @@
+body {
+    background-color: #E3FFFF;
+}
 header {
     position: fixed;
     top: 0;
@@ -37,10 +40,11 @@ header img{
 }
 
 main {
-    position: fixed;
+    position: relative;
     top: 14vw;
+    overflow: hidden scroll;
 
-    height: 100%;
+    height: calc(100% - 45vw);
     width: 100%;
 
     background-color: #E3FFFF;
