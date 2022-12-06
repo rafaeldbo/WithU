@@ -6,19 +6,33 @@ main ul{
 }    
 main li{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     
     height: min-content;
 
     margin: 2vw;
 }
-
 main li img {
     width: 15vw;
     height: 15vw;
     margin: 0 1vw;
 }
+
+.mensagem_anonimo {
+    justify-content: flex-start;
+}
+.mensagem_anonimo .balao_depois {
+    margin-left: 15vw;
+}
+
+.mensagem_usuario {
+    justify-content: flex-end;
+}
+.mensagem_usuario .balao_depois {
+    
+    margin-right: 15vw;
+}
+
 
 .balao_antes{
     position: relative;
@@ -57,7 +71,6 @@ main li img {
     width: max-content;
     min-height: max-content;
     
-    margin-left: 15vw;
     border-radius: 1vw;
     padding: 1vw;
     

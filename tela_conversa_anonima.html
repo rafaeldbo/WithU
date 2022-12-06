@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/header_footer.css">
         <link rel="stylesheet" href="assets/css/chat.css">
-        <script src="./assets/js/anonimo.js"></script>
+        <script src="./assets/js/chat.js"></script>
     </head>
     <body>
         <header>
@@ -31,25 +31,25 @@
             </a>
         </header>
         <main> 
-            <ul>
-                <li>
+            <ul id="mensagens">
+                <li class="mensagem_anonimo">
                     <img src="./assets/img/mascote.png" alt="Mascote">
                     <p class="balao_antes">Oi, como você esta? </p>
                 </li>
-                <li>
+                <li class="mensagem_anonimo">
                     <p class=" balao_depois">Me conte um pouquinho sobre o que esta sentindo...</p>
                 </li>
-                <li>
+                <li class="mensagem_usuario">
                     <p  class=" balao_antes">Hoje o dia ta sendo cansativo. Estou no intervalo do cursinho e me sinto mentalmente esgotado...</p>
-                    <img class="perfil" src="./assets/img/perfil.png"   alt="Perfil"> 
+                    <img class="perfil" src="./assets/img/usuario_anonimo.png"   alt="Usuário em anônimo"> 
                 </li>
             </ul>
         </main>
         <footer>
-            <nav class="bloco-envio-msg ">
+            <section class="bloco-envio-msg ">
                 <input class="entrada-msg" type="text" placeholder="Digite sua mensagem">
                 <button class="botao-enviar">Enviar</button>
-            </nav>
+            </section>
             <nav class="linha espacada separar">
                 <a href="./tela_ajuda.html">
                     <img src="./assets/img/ajuda.png"    alt="Ajuda">
