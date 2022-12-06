@@ -7,6 +7,7 @@ th {
 
     border: 0.1vw solid black;
 
+    font-size: 5vw;
     text-align: center;
 }
 .data_selecionada {
@@ -55,6 +56,8 @@ th {
 
     display: flex;
     align-items: center;
+    
+    font-size: 5vw;
 }
 
 #tipos_anotacoes img, #anotacoes img {
@@ -85,8 +88,8 @@ th {
 
 #salvar {
     position: fixed;
-    top: 75vh;
-    right: 5vw;
+    bottom: 25vw;
+    right: 1vw;
 
     width: min-content;    
 
