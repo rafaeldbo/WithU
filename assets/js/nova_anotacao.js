@@ -13,53 +13,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function get_note(index) {
         let note = notes[index]
-        document.querySelector("h1").innerHTML = note['titulo']
+        document.querySelector("#titulo").value = note['titulo']
         document.querySelector("#texto").innerHTML = note['texto']
         document.querySelector("#emocao").alt = note['emocao']
         document.querySelector("#emocao").src = `./assets/img/${emotions[note['emocao']]}.png`
     }
 
-    if (index != "new") {get_note(index)}
-
-    var write_spaces = {
-        "title": document.querySelector("h1"),
-        "text": document.querySelector("#texto"),
-    }
-
-    var write = "not selected"
-    for (let [name, space] of Object.entries(write_spaces)) {
-        space.addEventListener("click", function() {
-            write = this == name ? "not selected" : name
-        })
-    }
-
-    document.addEventListener("keydown", function(event) {
-        if (write != "not selected") {
-            if (characters.includes(event.key)) {
-                write_spaces[write].innerHTML += event.key
-            } else if (event.key == "Backspace") {
-                write_spaces[write].innerHTML = write_spaces[write].innerHTML.slice(0, -1)
-            } else if (event.key == "Enter") {
-                write_spaces[write].innerHTML += "<br>"
-            }
-        }
-    })
+    if (index != "new") {get_note(index)}  
     
     function save_note(index) {
         if (index != "new") {
             let note = notes[index]
-            note["titulo"] = document.querySelector('h1').innerHTML
+            note["titulo"] = document.querySelector('#titulo').value
             note["emocao"] = document.querySelector('#emocao').alt
-            note["texto"] = document.querySelector('#texto').innerHTML
+            note["texto"] = document.querySelector('#texto').value
             notes[index] = note
         } else {
             let DATE = new Date()
             let note = {
                 "data": `${DATE.getDate()}/${DATE.getMonth()+1}/${DATE.getFullYear()}`,
                 "tipo": "texto",
-                "titulo": document.querySelector('h1').innerHTML,
+                "titulo": document.querySelector('#titulo').value,
                 "emocao": document.querySelector('#emocao').alt,
-                "texto": document.querySelector('#texto').innerHTML
+                "texto": document.querySelector('#texto').value
             }
             notes.push(note)
         }
@@ -68,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location = "./tela_anotacoes.html"
     }
     function switch_screen(sreen) {
-        document.querySelector('#texto').style.display = (sreen == "note") ? "flex" : "none" 
+        document.querySelector('#anotacao').style.display = (sreen == "note") ? "flex" : "none" 
         document.querySelector('#classificar').style.display = (sreen == "classify") ? "flex" : "none" 
         
         let save_buttons = document.querySelectorAll(".salvar")

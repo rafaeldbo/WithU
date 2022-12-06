@@ -1,5 +1,11 @@
-header h1 {
+#titulo {
+    font-family: 'Concert One', 'Fredoka One', sans-serif;
     font-size: 6vw;
+    text-align: center;
+
+    background-color: #a7dbe8;
+    border: 0;
+    width: 100%;
 }
 
 main li {
@@ -81,43 +87,17 @@ th {
 
 /* Estilos esclusivos do tela anotação em texto */
 #texto {
-    width: auto;
-    padding: 0.5rem;
+    height: 100%;
+    background-color: #E3FFFF;
+    border: 0;
 
-    word-wrap: break-word;
+    font-family: 'Ubuntu', 'Noto Sans Georgian', sans-serif;
+    font-size: 5vw;
 }
-#texto * {
-    height: min-content;
-
-    padding: 0 4vw;
-
-    text-align: justify;
+#anotacao {
+    height: 90vh;
+    overflow: visible;
 }
-#texto img {
-    width: 20vw;
-    height: 20vw;
-}
-
-/* #botao_salvar {
-    position: fixed;
-    bottom: 25vw;
-    right: 1vw;
-
-    width: min-content;    
-
-    border: 0.5vw solid black;
-    border-radius: 6vw;
-    padding: 0;
-
-    background-color: #FFE2B8;
-    box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
-}
-#botao_salvar img {
-    width: 12vw;
-    height: 12vw;
-    
-    padding: 1vw;
-} */
 
 /* Estilos esclusivos do tela classificar anotação */
 #classificar {
