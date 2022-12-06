@@ -9,7 +9,6 @@ main li{
     justify-content: flex-start;
     align-items: center;
     
-    width: 80%;
     height: min-content;
 
     margin: 2vw;
@@ -17,7 +16,8 @@ main li{
 
 main li img {
     width: 15vw;
-    margin-right: 0.5vw;
+    height: 15vw;
+    margin: 0 1vw;
 }
 
 .balao_antes{

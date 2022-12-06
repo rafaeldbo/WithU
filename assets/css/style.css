@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {font-family: 'Ubuntu', 'Noto Sans Georgian', sans-serif;}
+body {
+    font-family: 'Ubuntu', 'Noto Sans Georgian', sans-serif;
+    background-color: #ffe2b8
+}
 h1 {font-family: 'Concert One', 'Fredoka One', sans-serif;}
 
 button {
@@ -65,3 +68,9 @@ button {
     width: 100%;
 }
 
+.perfil {
+    background-color: #ffe2b8;
+    border: black 0.5vw solid;
+    border-radius: 100%;
+    box-shadow: 0.5vw 0.5vw 0.5rem 0.5vw rgb(29, 36, 41, 0.2);
+}

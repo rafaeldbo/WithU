@@ -9,47 +9,58 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/header_footer.css">
         <link rel="stylesheet" href="./assets/css/anotacoes.css">
+        <script src="./assets/js/nova_anotacao.js"></script>
     </head>
     <body>
         <header>
-            <ul class="linha espacada">
+            <button class="botao_header salvar"> 
+                <img src="./assets/img/seta.png"     alt="Voltar"> 
+            </button> 
+            </a>
+            <h1>Título</h1>
+            <button class="botao_header classificar"> 
+                <img id="emocao" src="./assets/img/indefinido.png"   alt="Indefinido"> 
+            </button>
+        </header>
+
+        <main id="texto" class="coluna">
+            
+        </main>
+
+        <main id="classificar">
+            <ul class="coluna centralizada">
                 <li>
-                    <a class="botao_header" href="./tela_anotacoes.html"> 
-                        <img src="./assets/img/seta.png"     alt="Voltar">  
-                    </a>
+                    <h2>Como você está se sentindo agora?</h2>
                 </li>
-                <li>
-                    <a href="#"> 
-                        <img src="./assets/img/perfil.png"   alt="Perfil"> 
-                    </a>
+                <li class="linha">
+                    <button type="button" class="botao_emocao"> <img src="./assets/img/emocao_muito_feliz.png"     alt="Emoção muito feliz"> </button>
+                    <button type="button" class="botao_emocao"> <img src="./assets/img/emocao_feliz.png"    alt="Emoção feliz"> </button>
+                    <button type="button" class="botao_emocao"> <img src="./assets/img/emocao_normal.png"     alt="Emoção normal"> </button>
+                    <button type="button" class="botao_emocao"> <img src="./assets/img/emocao_triste.png" alt="Emoção triste"> </button>
+                    <button type="button" class="botao_emocao"> <img src="./assets/img/emocao_muito_triste.png"    alt="Emoção muito triste"> </button>
+                </li>
+                <li class="linha centralizada">
+                    <button class="classificar">Salvar</button>
+                    <button class="classificar">Cancelar</button>
                 </li>
             </ul>
-            <h1>Título</h1>
-            <a class="botao_header" href="./classificar_anotacao.html"> 
-                <img src="./assets/img/indefinido.png"   alt="Configurações"> 
-            </a>
-        </header>
-        <main id="texto" class="coluna">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ab numquam aliquam vel cumque fugit impedit porro sed commodi provident aperiam, totam omnis in modi. Ipsam dolor modi cupiditate dignissimos.</p>
-            <img src="https://picsum.photos/seed/withu/100/100"      alt="Imagem anexada">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dignissimos aut placeat fuga nulla nisi illo, necessitatibus nostrum eveniet eaque ipsum architecto animi, non cum sed asperiores corrupti voluptas ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis asperiores assumenda, ipsa maiores nobis voluptatibus illo porro in eligendi, ex fugit esse, non architecto magnam. Consequatur perferendis est eos accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores provident maxime sequi in velit, soluta molestiae assumenda amet accusamus aliquid, animi impedit modi? Aspernatur porro voluptates, ipsum error repudiandae culpa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est aut corrupti, dicta porro iusto aliquam sunt sapiente modi minus? Doloribus saepe fugiat officiis nisi laborum magni et dignissimos asperiores repellendus.</p>
-            <a id="salvar" href="./classificar_anotacao.html"><img src="./assets/img/salvar.png" alt="Salvar"></a>
         </main>
-        <footer>
+        
+        <!-- <footer>
             <nav class="linha espacada">
-                <a href="./tela_ajuda.html">
+                <a class="salvar" href="./tela_ajuda.html">
                     <img src="./assets/img/ajuda.png"    alt="Ajuda">
                 </a>
-                <a href="./tela_conversas.html">
+                <a class="salvar" href="./tela_conversas.html">
                     <img src="./assets/img/conversas.png"    alt="Conversas">
                 </a>
-                <a href="#">
+                <a class="salvar" href="#">
                     <img src="./assets/img/emocoes.png"  alt="Mapa de Emoções">
                 </a>
-                <a href="./tela_anotacoes.html">
+                <a class="salvar" href="./tela_anotacoes.html">
                     <img src="./assets/img/anotacoes.png"     alt="Anotações">
                 </a>
             </nav>
-        </footer> 
+        </footer> -->
     </body>
 </html> 

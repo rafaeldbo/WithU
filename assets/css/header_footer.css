@@ -18,8 +18,8 @@ header {
     background-color: #A7DBE8;
 }
 header h1 {
-    font-size: 7vw;
-    color: #FFA44F;
+    font-size: 8vw;
+    color: #1D2429;
     text-shadow: 0.5vw 0.5vw rgb(29, 36, 41, 0.2);
 }
 
@@ -64,8 +64,8 @@ footer nav {
     padding: 1.5vw 0;
 }
 footer img {   
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
 }
 
 

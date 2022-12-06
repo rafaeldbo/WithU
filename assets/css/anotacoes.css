@@ -1,3 +1,7 @@
+header h1 {
+    font-size: 6vw;
+}
+
 main li {
     margin: 0 4vh;
 }
@@ -36,6 +40,8 @@ th {
 
     font-size: 5vw;
     text-align: center;
+    font-weight: bold;
+    color: #FFA44F;
 }
 
 #anotacoes {
@@ -57,7 +63,7 @@ th {
     display: flex;
     align-items: center;
     
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 #tipos_anotacoes img, #anotacoes img {
@@ -66,13 +72,19 @@ th {
 
     margin: 1.5vw 1.5vw;
 }
-#tipos_anotacoes .ultimo, #anotacoes .ultimo {
+#anotacoes a:last-child, #tipos_anotacoes a:last-child {
     border: 0;
+}
+.dados {
+    display: none;
 }
 
 /* Estilos esclusivos do tela anotação em texto */
 #texto {
-    padding: 4vw 0;
+    width: auto;
+    padding: 0.5rem;
+
+    word-wrap: break-word;
 }
 #texto * {
     height: min-content;
@@ -86,7 +98,7 @@ th {
     height: 20vw;
 }
 
-#salvar {
+/* #botao_salvar {
     position: fixed;
     bottom: 25vw;
     right: 1vw;
@@ -100,30 +112,39 @@ th {
     background-color: #FFE2B8;
     box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
 }
-#salvar img {
+#botao_salvar img {
     width: 12vw;
     height: 12vw;
     
     padding: 1vw;
-}
+} */
 
 /* Estilos esclusivos do tela classificar anotação */
-.classificar {
-    display: flex;
+#classificar {
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    width: 100%;
-    height: 100%;
-    
-    background-color: #A7DBE8;
 }
-.classificar a {
+#classificar .classificar {
+    width: 25vw;
+    min-width: min-content;
+
+    margin: 0 2vh;
     padding: 2.5vw 5vw;
     border: 0.5vw solid black;
     border-radius: 3vw;
     
     background-color: #FFE2B8;
+    box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
+
+    text-align: center;
+}
+#classificar ul {
+    background-color: #a7dbe8;
+    
+    padding: 2vh 0;
+    border: 0.5vw solid black;
+    border-radius: 5vw;
     box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
 }
